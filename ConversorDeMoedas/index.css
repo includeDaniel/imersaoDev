@@ -8,6 +8,14 @@ body {
     background-repeat: no-repeat;
   }
   
+  input {
+    color:black;
+    height: 40px;
+    width: 100px;
+    border-radius:15%;
+    background-color:		#B0C4DE ;
+  }
+
   .container {
     text-align: center;
     padding: 20px;
