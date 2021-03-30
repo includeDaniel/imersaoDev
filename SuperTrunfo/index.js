@@ -25,67 +25,67 @@ var cartaA = {
     }
   }
   var cartaD = {
-    nome: "Lorde Darth Vader",
+    nome: "Naruto",
     atributos: {
-      ataque: 88,
-      defesa: 62,
-      magia: 90,
+      ataque: 99,
+      defesa: 100,
+      magia: 100,
     }
   }
   var cartaE = {
-    nome: "Lorde Darth Vader",
+    nome: "Sasuke",
     atributos: {
-      ataque: 88,
-      defesa: 62,
-      magia: 90,
+      ataque: 100,
+      defesa: 80,
+      magia: 72,
     }
   }
   var cartaF = {
-    nome: "Lorde Darth Vader",
+    nome: "Rick and Morty",
     atributos: {
-      ataque: 88,
-      defesa: 62,
-      magia: 90,
+      ataque: 2,
+      defesa: 4,
+      magia: 100,
     }
   }
   var cartaG = {
-    nome: "Lorde Darth Vader",
+    nome: "power ranger vermelho",
     atributos: {
-      ataque: 88,
-      defesa: 62,
-      magia: 90,
+      ataque: 95,
+      defesa: 86,
+      magia: 0,
     }
   }
   var cartaH = {
-    nome: "Lorde Darth Vader",
+    nome: "hulk",
     atributos: {
-      ataque: 88,
-      defesa: 62,
-      magia: 90,
+      ataque: 100000,
+      defesa: 100,
+      magia: 0,
     }
   }
   var cartaI = {
-    nome: "Lorde Darth Vader",
+    nome: "capitao america",
     atributos: {
-      ataque: 88,
-      defesa: 62,
-      magia: 90,
+      ataque: 95,
+      defesa: 75,
+      magia: 0,
     }
   }
   var cartaJ = {
-    nome: "Lorde Darth Vader",
+    nome: "Kaguya",
     atributos: {
-      ataque: 88,
-      defesa: 62,
-      magia: 90,
+      ataque: 0,
+      defesa: 50,
+      magia: 10000,
     }
   }
   var cartaK = {
-    nome: "Lorde Darth Vader",
+    nome: "goku",
     atributos: {
-      ataque: 88,
-      defesa: 62,
-      magia: 90,
+      ataque: 8000,
+      defesa: 8000,
+      magia: 8000,
     }
   }
   
