@@ -49,7 +49,7 @@ var cartaA = {
     }
   }
   var cartaG = {
-    nome: "power ranger vermelho",
+    nome: "Power ranger vermelho",
     atributos: {
       ataque: 95,
       defesa: 86,
@@ -57,7 +57,7 @@ var cartaA = {
     }
   }
   var cartaH = {
-    nome: "hulk",
+    nome: "Hulk",
     atributos: {
       ataque: 100000,
       defesa: 100,
@@ -65,7 +65,7 @@ var cartaA = {
     }
   }
   var cartaI = {
-    nome: "capitao america",
+    nome: "Capitao america",
     atributos: {
       ataque: 95,
       defesa: 75,
@@ -81,7 +81,7 @@ var cartaA = {
     }
   }
   var cartaK = {
-    nome: "goku",
+    nome: "Goku",
     atributos: {
       ataque: 8000,
       defesa: 8000,
@@ -115,12 +115,12 @@ var cartaA = {
 
 
   function sortearCarta() {
-    var numeroCartaMaquina = parseInt(Math.random() * 3)
+    var numeroCartaMaquina = parseInt(Math.random() * 11)
     cartaMaquina =  cartas[numeroCartaMaquina]
     
-    var numeroCartaJogador = parseInt(Math.random() * 3)
+    var numeroCartaJogador = parseInt(Math.random() * 11)
     while (numeroCartaJogador == numeroCartaMaquina) {
-      numeroCartaJogado = parseInt(Math.random() * 3)
+      numeroCartaJogado = parseInt(Math.random() * 11)
     }
     cartaJogador = cartas[numeroCartaJogador]
     document.getElementById('btnSortear').disabled = true
