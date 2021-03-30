@@ -22,6 +22,6 @@ let segundoValor = parseInt(prompt("Digite o segundo valor"))
       alert(" " + primeiroValor + " - " + segundoValor  + " = " + resultadoSubtracao + "")
       break;
     default:  
-      alert("Tente Novamente</h2>")
+      alert("<h2>Tente Novamente</h2>")
   }
 
