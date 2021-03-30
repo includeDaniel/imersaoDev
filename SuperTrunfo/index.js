@@ -93,8 +93,6 @@ var cartaA = {
   var cartaJogador
   var cartas = [cartaA, cartaB, cartaC, cartaD, cartaE, cartaF, cartaG, cartaH, cartaI, cartaJ, cartaK]
   
-
-
   function exibirCarta(id, carta) {
 
     var area = document.getElementById(id)
@@ -115,6 +113,8 @@ var cartaA = {
 
 
   function sortearCarta() {
+   document.getElementById('texto').style.display = "inline";
+
     var numeroCartaMaquina = parseInt(Math.random() * 11)
     cartaMaquina =  cartas[numeroCartaMaquina]
     
@@ -123,20 +123,24 @@ var cartaA = {
       numeroCartaJogado = parseInt(Math.random() * 11)
     }
     cartaJogador = cartas[numeroCartaJogador]
+ 
     document.getElementById('btnSortear').disabled = true
     document.getElementById('btnJogar').disabled = false
     document.getElementById('btnJogarNovamente').disabled = false
     exibirOpcoes()
     exibirCarta('minhaCarta', cartaJogador)
+
   }
   
   function exibirOpcoes() {
     var opcoes = document.getElementById('opcoes')
     var opcoesTexto = ""
+    
     for(var atributo in cartaJogador.atributos) { 
       opcoesTexto += "<input type='radio' name='atributo' value='" + atributo + "'> " + atributo
     }
     opcoes.innerHTML = opcoesTexto
+    
   }
   
   function obtemAtributoSelecionado() {
@@ -149,6 +153,9 @@ var cartaA = {
   }
   
   function jogar() {
+
+    document.getElementById('btnJogarNovamente').style.display = 'inline';
+    document.getElementById('btnJogar').style.display = 'none';
 
     exibirCarta('cartaMaquina', cartaMaquina)
 
