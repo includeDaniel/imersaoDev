@@ -1,4 +1,4 @@
-var cartaPaulo = {
+var cartaA = {
     nome: "Seiya de Pegasos",
     atributos: {
       ataque: 80,
@@ -7,7 +7,7 @@ var cartaPaulo = {
     }
   }
   
-  var cartaRafa = {
+  var cartaB = {
     nome: "Bulbasauro",
     atributos: {
       ataque: 70,
@@ -16,7 +16,71 @@ var cartaPaulo = {
     }
   }
   
-  var cartaGui = {
+  var cartaC = {
+    nome: "Lorde Darth Vader",
+    atributos: {
+      ataque: 88,
+      defesa: 62,
+      magia: 90,
+    }
+  }
+  var cartaD = {
+    nome: "Lorde Darth Vader",
+    atributos: {
+      ataque: 88,
+      defesa: 62,
+      magia: 90,
+    }
+  }
+  var cartaE = {
+    nome: "Lorde Darth Vader",
+    atributos: {
+      ataque: 88,
+      defesa: 62,
+      magia: 90,
+    }
+  }
+  var cartaF = {
+    nome: "Lorde Darth Vader",
+    atributos: {
+      ataque: 88,
+      defesa: 62,
+      magia: 90,
+    }
+  }
+  var cartaG = {
+    nome: "Lorde Darth Vader",
+    atributos: {
+      ataque: 88,
+      defesa: 62,
+      magia: 90,
+    }
+  }
+  var cartaH = {
+    nome: "Lorde Darth Vader",
+    atributos: {
+      ataque: 88,
+      defesa: 62,
+      magia: 90,
+    }
+  }
+  var cartaI = {
+    nome: "Lorde Darth Vader",
+    atributos: {
+      ataque: 88,
+      defesa: 62,
+      magia: 90,
+    }
+  }
+  var cartaJ = {
+    nome: "Lorde Darth Vader",
+    atributos: {
+      ataque: 88,
+      defesa: 62,
+      magia: 90,
+    }
+  }
+  var cartaK = {
     nome: "Lorde Darth Vader",
     atributos: {
       ataque: 88,
@@ -27,7 +91,7 @@ var cartaPaulo = {
   
   var cartaMaquina
   var cartaJogador
-  var cartas = [cartaPaulo, cartaRafa, cartaGui]
+  var cartas = [cartaA, cartaB, cartaC, cartaD, cartaE, cartaF, cartaG, cartaH, cartaI, cartaJ, cartaK]
   
 
 
